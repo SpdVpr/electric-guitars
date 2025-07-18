@@ -76,12 +76,12 @@ const FeaturedBrands = () => {
               
               <div className="flex items-start gap-6">
                 {/* Logo */}
-                <div className="relative w-20 h-20 flex-shrink-0">
+                <div className="relative w-20 h-20 flex-shrink-0 bg-white/10 rounded-lg p-2 group-hover:bg-white/20 transition-all duration-300">
                   <Image
                     src={brand.logo}
                     alt={`${brand.name} logo`}
                     fill
-                    className="object-contain filter brightness-0 invert group-hover:brightness-100 group-hover:invert-0 transition-all duration-300"
+                    className="object-contain p-1 transition-all duration-300"
                   />
                 </div>
                 
